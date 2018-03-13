@@ -4,6 +4,7 @@
 .local
 .bash_history
 .viminfo
+metastore_db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
