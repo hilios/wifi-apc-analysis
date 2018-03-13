@@ -1,6 +1,9 @@
 .DS_Store
 .ipython
+.jupyter
 .local
+.bash_history
+.viminfo
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
