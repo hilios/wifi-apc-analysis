@@ -2,6 +2,7 @@
 .ipython
 .jupyter
 .local
+.conda
 .bash_history
 .viminfo
 metastore_db
