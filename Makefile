@@ -7,7 +7,7 @@ opts := -p 8888:8888 -v $(cwd):/home/jovyan
 start := start-notebook.sh --NotebookApp.token=''
 
 # https://hub.docker.com/r/jupyter/pyspark-notebook/tags/
-image := pyspark-notebook:de0cd8011b9e
+image := pyspark-notebook:a76af0585e24
 
 default:
 	docker run --user root --rm -it $(opts) $(envs) jupyter/$(image) $(start)
